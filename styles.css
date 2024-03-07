@@ -1,20 +1,30 @@
 body {
     font-family: sans-serif;
-    margin: 0;
+    margin: 10px;
+    background-image: url(pexels-wendy-wei-1555900.jpg);
 }
+
+/* Header */
+
 header {
     display: flex;
     min-height: 70px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 70%);
     color: white;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
 
+.nombre {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
 a {
     text-decoration: none;
     color: white;
+    margin-right: 20px;
 }
 
 nav a {
@@ -35,3 +45,43 @@ nav a:hover {
         padding: 10px 0px;
     }
 }
+
+/* Menu */
+
+.menu {
+    background-color: rgba(0, 0, 0, 70%);
+    color: white;
+}
+
+.titulo-bienvenida {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    padding: 30px;
+}
+
+.contenedor-imagen {
+    display: flex;
+}
+
+.texto-bienvenida {
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 200px;
+    font-size: 25px;
+}
+
+.foto-personal {
+    height: 300px;   
+    margin-left: 200px;
+    margin-top: 75px;
+    border-radius: 20%;
+    border: 5px solid grey;
+}
+
+.linea-footer {
+    margin-top: 50px;
+}
+
+/*Footer*/
+
