@@ -7,31 +7,89 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <section>
+        <video src="mountains_-_91545 (720p).mp4" autoplay muted loop id="backgroundVideo"></video>
+    </section>
     <header>
-        <a href="">
-        <h1 class="nombre"> OSCAR HERENCIA SAKKIS </h1>
+        <a class="nombrePrincipal" href="#nombrePrincipal">
+            <h1 class="nombrePrincipal"> OSCAR HERENCIA SAKKIS </h1>
         </a>
-        <nav>
-        <a href="" class="nav-right">Proyectos</a>
-        <a href="" class="nav-right">Currículum</a>
-        <a href="" class= "nav-right">Contacto</a>
-        </nav>
+            <nav class="navegadorHeader">
+            <a href="#lenguajes" class="atajo">Skills</a>
+            <a href="#proyectos" class="atajo">Proyectos</a>
+            <a href="#footer" class= "atajo">Contacto</a>
+            </nav>
     </header>
 <hr>
-    <main class="menu">
-        <h1 class="titulo-bienvenida">BIENVENIDOS A MI PORTFOLIO</h1>
+    <main>
+        <section class="menu">
+        <h2 class="titulo-bienvenida">BIENVENIDOS A MI PORTFOLIO.</h2>
         <div class="contenedor-imagen">
-        <img src="Captura.jpg" alt="Foto" class="foto-personal">
-        <p class="texto-bienvenida"> "Buenas, soy Oscar, tengo 25 años y soy estudiante del bootcamp Full Stack de Factoría F5.<br>
-        Os doy la bienvenida a mi portfolio." </p>
-        </div>         
+            <img src="Captura.jpg" alt="Foto" class="foto-personal">
+            <p class="texto-bienvenida"> "Buenas, soy Oscar, tengo 25 años y soy estudiante del bootcamp Full Stack de Factoría F5. <br>
+            Os doy la bienvenida a mi portfolio." </p>
+        </div>
+        </section>
+<hr>
+        <section class="skills">
+            <h2><a name="lenguajes"></a>Skills</h2>
+            <div class="lenguajes">
+                <img src="icons8-html-150.png" alt="html">
+                <img src="icons8-css-150.png" alt="css">
+                <img src="icons8-javascript-150.png" alt="javascript">
+            </div>
+        </section>   
+<hr>
+        <section class="proyectos">
+            <h2 class="misProyectos"><a name="proyectos"></a>Mis proyectos</h2>
+        <section class="conjuntoCards">    
+                <div class="card">
+                <img class="fotoCard" src="proyecto1.PNG">
+                <div class="contenido">
+                <p class="tituloCard">Mi primera web</p>
+                </div>
+                <div>    
+                <p class="textoCard">Mi primera web fue este portfolio, donde podeis encontrar información sobre mi, y podéis contactar conmigo.</p>
+                </div>
+                <div>    
+                <a class="enlaceCard" href="#">Leer más</a>
+                </div>
+                </div>
+        <div class="card">
+        <img class="fotoCard" src="proyecto1.PNG">
+        <div class="contenido">
+        <p class="tituloCard">Mi primera web</p>
+        </div>
+        <div>    
+        <p class="textoCard">Mi primera web fue este portfolio, donde podeis encontrar información sobre mi, y podéis contactar conmigo.</p>
+        </div>
+        <div>    
+        <a class="enlaceCard" href="#">Leer más</a>
+        </div>
+        </div>
+            <div class="card">
+            <img class="fotoCard" src="proyecto1.PNG">
+            <div class="contenido">
+            <p class="tituloCard">Mi primera web</p>
+            </div>
+            <div>    
+            <p class="textoCard">Mi primera web fue este portfolio, donde podeis encontrar información sobre mi, y podéis contactar conmigo.</p>
+            </div>
+            <div>    
+            <a class="enlaceCard" href="#">Leer más</a>
+            </div>
+            </div>
+        </section>
+        </section>             
     </main>
 <hr>
-    <div class="footer">
-        <a href="https://github.com/oscarh9" target="_blank"><img src="icons8-github-64.png" alt="GitHub" class="logo-git"></a>
-        <a href="https://gmail.com" target="_blank"> <img src="icons8-gmail-nuevo-50.png" alt="GMAIL" class="logo-gmail"></a>
+    <footer>
+        <div class="footer">
+        <a name="footer" href="https://github.com/oscarh9" target="_blank"><img src="icons8-github-64.png" alt="GitHub" class="logo-git"></a>
+        <a href="mailto:oscarherenciasakkis@gmail.com" target="_blank"> <img src="icons8-gmail-nuevo-50.png" alt="GMAIL" class="logo-gmail"></a>
         <a href="https://es.linkedin.com/" target="_blank"> <img src="icons8-linkedin-50.png" alt="GitHub" class="logo-linkedin"></a>
-    </div>
+        </div>
+        <div class="pie"><p>© Made by OSCAR HERENCIA.</p></div>
     </footer>    
 </body>
 </html>
